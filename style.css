@@ -342,7 +342,7 @@ em:hover{
 
 
 .page-four{
-    background-image: url(/images/wavy.svg);
+    background-image: url(images/wavy.svg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -447,7 +447,7 @@ em:hover{
 .six-wrapper{
     width: 100vw;
     height: 85vh;
-    background-image: url(/images/triangle.svg);
+    background-image: url(images/triangle.svg);
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -459,7 +459,7 @@ em:hover{
 
 
 .page-seven{
-    background-image: url(/images/steps.svg);
+    background-image: url(images/steps.svg);
     background-repeat: no-repeat;
     background-size: cover;    
     width: 100vw;
