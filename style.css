@@ -116,6 +116,8 @@ body {
     width: 80vw;
     height: 80vh;
 
+    overflow:auto;
+
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -174,7 +176,7 @@ body {
     text-align: center;
     line-height: 1.5;
     opacity: 0;
-    font-size: 2rem;
+    font-size: clamp(auto, 2rem, auto);
 
 }
 .appear{
@@ -291,6 +293,8 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+
+    overflow: auto;
 }
 
 .squeeze{
@@ -305,7 +309,7 @@ body {
 
     } 
     100% {
-    height: 70vh;  
+    height: 60vh;  
     width: 100vw;
   
 }
@@ -314,10 +318,13 @@ body {
 
 #teached{
     color:#d4d4d8;
-    font-size: 1.5rem;
     width: 70vw;
     text-align: center;
     line-height: 1.5;
+
+    
+    font-size: 1.5rem;
+
 
 }
 
@@ -341,7 +348,7 @@ em:hover{
     background-position: center;
     width: 100vw;
     height: 100vh;
-
+    overflow: auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -351,12 +358,15 @@ em:hover{
 
     color:#d4d4d8;
     width: 80vw;
-    height: 45vh;
+    height: 40vh;
     text-align: center;
     line-height: 1.5;
-    font-size: 2rem;
+    font-size: 1.5rem;
     padding: 20px;
     outline: 2px solid #710f3b;
+    padding-top: 50px;
+    overflow: auto;
+
   
 
 }
@@ -380,8 +390,11 @@ em:hover{
     height: 35vh;
     text-align: center;
     line-height: 1.5;
-    font-size: 2rem;
+    font-size: 1.75rem;
     padding: 20px;
+    padding-top: 80px;
+    overflow: auto;
+
     background-color: #18181b;
 
    
@@ -418,11 +431,14 @@ em:hover{
 
     color:#d4d4d8;
     width: 80vw;
-    height: 50vh;
+    height: 40vh;
     text-align: center;
     line-height: 1.5;
-    font-size: 2rem;
+    font-size: 1.75rem;
+    overflow: auto;
+
     padding: 20px;
+    padding-top: 40px;
     background-color: #18181b;
 
    
@@ -464,6 +480,7 @@ em:hover{
     font-size: 2rem;
     padding: 20px;
     background-color: #18181b;
+    overflow: auto;
 
     border: 5px solid;
     border-image-slice: 1;
